@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.newsapp"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.example.newsapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -101,7 +101,7 @@ dependencies {
 
     //Paging 3
     val paging_version = "3.1.1"
-    implementation ("androidx.paging:paging-runtime:3.1.1")
+    implementation ("androidx.paging:paging-runtime:$paging_version")
     implementation ("androidx.paging:paging-compose:3.2.0-rc01")
 
     //Room
